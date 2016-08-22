@@ -1,0 +1,39 @@
+
+/*
+ * admin-view.css
+ *
+ * This stylesheet is loaded for the admin menu and options
+ */
+
+ body{
+  background-color: #f1f1f1;
+ }
+ a , a:hover , a:focus{
+  text-decoration:none;
+  outline:0;
+ }
+
+.shortcode_container > .form-control.shortcode-details {
+  background-color: #fff;
+  border: 0 none;
+  display: inline-block;
+  height: inherit;
+  max-width: 135px;
+  outline: 0 none;
+  padding: 2px 0;
+  text-align: center;
+}
+.nav.nav-pills > li > a {
+  padding: 5px;
+}
+.nav.nav-pills > li {
+  margin: 0 10px 0 0;
+}
+.form-group > label.label {
+  color: #000;
+  display: inline-block;
+  font-size: 13px;
+  min-width: 160px;
+  padding: 0;
+  text-align: left;
+}
