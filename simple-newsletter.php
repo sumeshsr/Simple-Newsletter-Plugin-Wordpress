@@ -5,7 +5,7 @@
  *
  *
  * Plugin Name: Simple Newsletter
- * Plugin URI: 
+ * Plugin URI: https://github.com/sumeshsr/Simple-Newsletter-Plugin-Wordpress
  * Description: 
  * Version: 1.0.0
  * Author: Sumesh S
@@ -42,8 +42,6 @@ require_once( SIMPLE_NEWSLETTER_PLUGIN_DIR.'/inc/functions.php' );
 if ( is_admin() ) {	
 	require_once( SIMPLE_NEWSLETTER_PLUGIN_DIR.'/admin/admin-functions.php' );
 	require_once( SIMPLE_NEWSLETTER_PLUGIN_DIR.'/admin/admin-template-functions.php' );
-	require_once( SIMPLE_NEWSLETTER_PLUGIN_DIR.'/admin/class-admin.php' );
-	//require_once( WP_AFFILIATES_PLUGIN_DIR.'/admin/class-admin.php' );
-	//require_once( WP_AFFILIATES_PLUGIN_DIR.'/admin/class-admin-add-affiliate.php' );	
+	require_once( SIMPLE_NEWSLETTER_PLUGIN_DIR.'/admin/class-admin.php' );	
 		
 }
